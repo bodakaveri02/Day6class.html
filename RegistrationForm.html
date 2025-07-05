@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+    <h1>Event Registrtation Form</h1>
+    <fieldset>
+    <legend>Enter Your Details</legend>
+    <label>File Name:</label><br>
+    <input type="File Name" placehoder="Enter Your File Name" required><br><br>
+    <label>Phone Number:</label><br>
+    <input type="Phone Number" placehoder="Enter Your Phone Number" required><br><br>
+    <label>Email:</label><br>
+    <input type="Email" placehoder="Enter Your Email"required><br><br>
+    <label for="date">Select Date:</label><br>
+    <input type="date"><br><br>
+    <label for="date and time">Select date & Time:</label><br>
+    <input type="datetime-local"><br><br>
+    <label>Event Category:</label><br>
+    <select>
+        <option selected hidden>please select options</option>
+        <option>session1</option>
+        <option>session2</option>
+        <option>session3</option>
+       <option>session14/option>
+    </select><br><br>
+    <label>Mode of Attendence:</label><br>
+    <input type="radio" name="mode" value="online">Online<br>
+    <input type="radio" name="mode" value="online">Offline<br><br>
+    <label>Skills Inserted:</label><br>
+    <input type="checkbox" name="skills" value="ai">AI<br>
+    <input type="checkbox" name="skills" value="data science">Data Science<br>
+    <input type="checkbox" name="skills" value="web development">Web Development<br>
+    <input type="checkbox" name="skills" value="deep learning">Deep Learning<br><br>
+    <label>LinkedIn URL:</label><br>
+    <input type="linkedin" placeholder="https://www.linkedin.com/feed/"><br><br>
+     <label>Upload Resume:</label><br>
+     <input type="file"><br><br>
+     <button>submit</button>
+     <button>confirm</button>
+</form>
+    </fieldset>
+</body>
+</html>
